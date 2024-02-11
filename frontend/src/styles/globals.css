@@ -1,0 +1,21 @@
+.App {
+  background-color: fafafa;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mobile {
+  background-color: white;
+  border: 10px solid black;
+  width: 590px;
+  height: 100vh;
+}
+@media screen and (max-width: 600px) {
+  .App {
+    background-color: red;
+    text-align: center;
+    min-height: 100vh;
+  }
+}

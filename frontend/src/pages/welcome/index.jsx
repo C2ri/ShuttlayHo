@@ -1,9 +1,15 @@
-// import logo from "../src/assets/logo.svg";
+import logo from "../../assets/welcome/main.png";
+import team from "../../assets/welcome/c2ri.png";
+import "./styles.css";
 
 function welcome() {
   return (
-    <div className="App">
-      <header className="App-header">웰컴페이지</header>
+    <div className="Welcome">
+      <h1>셔를레이호</h1>
+      <div>
+        <img className="main-logo" alt="iPhone_01" src={logo} />
+        <img className="team-logo" alt="iPhone_01" src={team} />
+      </div>
     </div>
   );
 }
