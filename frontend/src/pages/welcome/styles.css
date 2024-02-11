@@ -1,9 +1,11 @@
 .fadeout {
   animation: fadeout 3s;
-  display: ;
 }
 .fadein {
-  animation: 5s ease 0s normal forwards 1 fadein;
+  animation: fadein 5s;
+  position: fixed;
+  top: 30vh;
+  left: 30vw;
 }
 
 .main-logo {
@@ -17,10 +19,13 @@
 
 @keyframes fadeout {
   /* 효과를 동작시간 동안 0 ~ 1까지 */
-  from {
+  0% {
     opacity: 1;
   }
-  to {
+  66% {
+    opacity: 0.5;
+  }
+  100% {
     opacity: 0;
   }
 }
