@@ -1,6 +1,7 @@
 .App {
   background-image: url("../assets/background.png");
   background-size: cover;
+  background-attachment: fixed;
   background-position: center center;
   text-align: center;
   /* min-width: 100vw; */
@@ -10,7 +11,7 @@
   align-items: center;
 }
 .Mobile {
-  background-color: white;
+  background-color: #fafafa;
   width: 590px;
   min-height: 100vh;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
