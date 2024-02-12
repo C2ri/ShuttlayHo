@@ -1,6 +1,6 @@
 // import logo from "../src/assets/logo.svg";
 
-function welcome() {
+function main() {
   return (
     <div className="App">
       <header className="App-header">메인페이지</header>
@@ -8,4 +8,4 @@ function welcome() {
   );
 }
 
-export default welcome;
+export default main;

@@ -1,9 +1,12 @@
-// import logo from "../src/assets/logo.svg";
+import "./styles.css";
+import MainLogo from "../../components/welcome/MainLogo";
+import LoginModule from "../../components/welcome/LoginModule";
 
 function welcome() {
   return (
-    <div className="App">
-      <header className="App-header">웰컴페이지</header>
+    <div>
+      <MainLogo />
+      <LoginModule />
     </div>
   );
 }
