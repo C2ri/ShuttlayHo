@@ -1,4 +1,4 @@
-function welcome() {
+function notfound() {
   return (
     <div className="App">
       <header className="App-header">잘못된 접근입니다</header>
@@ -6,4 +6,4 @@ function welcome() {
   );
 }
 
-export default welcome;
+export default notfound;
