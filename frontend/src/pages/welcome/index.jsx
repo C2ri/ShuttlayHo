@@ -8,24 +8,24 @@ import "./styles.css";
 function welcome() {
   return (
     <div className="Welcome">
-      <div className="fadeout">
-        <img className="main-logo" alt="iPhone_01" src={copy} />
+      <div className="fadein">
+        {/* <img className="main-logo" alt="iPhone_01" src={copy} /> */}
         <img className="main-logo" alt="iPhone_01" src={logo} />
-        <img className="team-logo" alt="iPhone_01" src={team} />
       </div>
 
       <div className="fadein">
-        <img className="main-logo" alt="iPhone_01" src={copy} />
         <div className="login-module">
-          <button>
+          <div className="login-button">
             <img className="login" alt="iPhone_01" src={kakaoLogin} />
-          </button>
-          <button>
+          </div>
+          <div className="login-button">
             <img className="login" alt="iPhone_01" src={googleLogin} />
-          </button>
-          <button>
-            <div>로그인 없이 둘러보기</div>
-          </button>
+          </div>
+          <div className="login-button">
+            <div className="login" id="no-login">
+              로그인 없이 둘러보기
+            </div>
+          </div>
         </div>
       </div>
     </div>
