@@ -3,6 +3,7 @@ import KakaoLogin from "../../../assets/Welcome/KakaoLogin.png";
 import GoogleLogin from "../../../assets/Welcome/GoogleLogin.png";
 import { loginApi } from "../../../apis/Welcome";
 import "./styles.css";
+import "../../../styles/common.css";
 
 function LoginModule() {
   return (
@@ -15,7 +16,7 @@ function LoginModule() {
           <img className="login" alt="Google Login" src={GoogleLogin} />
         </div>
         <div className="login-button" onClick={loginApi}>
-          <Link to="/" className="login">
+          <Link to="/" className="next-button">
             <div className="login" id="no-login">
               로그인 없이 둘러보기
             </div>
