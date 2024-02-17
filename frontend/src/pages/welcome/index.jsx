@@ -1,14 +1,16 @@
 import "./styles.css";
-import MainLogo from "../../components/welcome/MainLogo";
-import LoginModule from "../../components/welcome/LoginModule";
+import MainLogo from "../../components/Welcome/MainLogo";
+import LoginModule from "../../components/Welcome/LoginModule";
 
-function welcome() {
+function Welcome() {
   return (
-    <div>
-      <MainLogo />
-      <LoginModule />
+    <div className="welcome">
+      <div>
+        <MainLogo />
+        <LoginModule />
+      </div>
     </div>
   );
 }
 
-export default welcome;
+export default Welcome;

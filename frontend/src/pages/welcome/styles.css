@@ -1,4 +1,9 @@
-.fadein {
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fade-in {
   animation: fadein 2s;
   position: relative;
 }

@@ -1,18 +1,18 @@
 import { Link, Route, BrowserRouter as Router } from "react-router-dom";
-import kakaoLogin from "../../../assets/welcome/kakaoLogin.png";
-import googleLogin from "../../../assets/welcome/googleLogin.png";
-import { loginApi } from "../../../apis/welcome";
+import KakaoLogin from "../../../assets/Welcome/KakaoLogin.png";
+import GoogleLogin from "../../../assets/Welcome/GoogleLogin.png";
+import { loginApi } from "../../../apis/Welcome";
 import "./styles.css";
 
 function LoginModule() {
   return (
-    <div className="fadein">
+    <div className="fade-in">
       <div className="login-module">
         <div className="login-button" onClick={loginApi}>
-          <img className="login" alt="iPhone_01" src={kakaoLogin} />
+          <img className="login" alt="Kakao Login" src={KakaoLogin} />
         </div>
         <div className="login-button" onClick={loginApi}>
-          <img className="login" alt="iPhone_01" src={googleLogin} />
+          <img className="login" alt="Google Login" src={GoogleLogin} />
         </div>
         <div className="login-button" onClick={loginApi}>
           <Link to="/" className="login">
