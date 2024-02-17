@@ -26,3 +26,6 @@
     min-height: 100vh;
   }
 }
+.bg {
+  background-color: #ededed;
+}
