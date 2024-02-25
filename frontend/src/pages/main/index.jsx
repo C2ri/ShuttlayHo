@@ -1,11 +1,14 @@
 // import logo from "../src/assets/logo.svg";
+import MainRecomm from "../../components/Main/Recommendation";
+import MainSelect from "../../components/Main/Select";
 
-function main() {
+function Main() {
   return (
-    <div className="App">
-      <header className="App-header">메인페이지</header>
+    <div>
+      <MainSelect></MainSelect>
+      <MainRecomm></MainRecomm>
     </div>
   );
 }
 
-export default main;
+export default Main;
