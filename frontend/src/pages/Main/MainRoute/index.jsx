@@ -1,17 +1,17 @@
 import "../../../styles/common.css";
+import IndivRoute from "../../../components/Main/MainRoute";
+
 function MainRoute() {
+  const locationArr = ["강남", "광화문", "신촌", "성수", "여의도", "판교"];
   return (
     <div>
-      <p>출근노선</p>
-      <div>
-        <button className="next-button">다음보기</button>
-      </div>
-      <div>
-        <button className="big-button">큰버튼</button>
-      </div>
-      <div>
-        <button className="small-button">작은 버튼</button>
-      </div>
+      <h1>출근노선</h1>
+      {locationArr.map((week, index) => (
+        <span key={index}>{week}</span>
+      ))}
+      {locationArr.map((a, i) => {
+        return <IndivRoute loca={a} num={i} key={i} />;
+      })}
     </div>
   );
 }

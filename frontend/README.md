@@ -1,3 +1,14 @@
+## 프로젝트 초기설정
+
+### 1. 폴더구조
+
+- Pages /
+
+### 2. 프로젝트 실행방법
+
+- npm install
+- npm run start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

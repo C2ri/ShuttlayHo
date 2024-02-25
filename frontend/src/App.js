@@ -8,6 +8,7 @@ import Welcome from "./pages/Welcome";
 import Reservation from "./pages/Reservation";
 import NotFound from "./pages/NotFound";
 import "./styles/globals.css";
+import DetailRoute from "./pages/Main/DetailRoute";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 
             <Route path="/" element={<Main />} />
             <Route path="/route" element={<MainRoute />} />
+            <Route path="/route-detail" element={<DetailRoute />} />
             <Route path="/detail" element={<MainDetail />} />
 
             <Route path="/reservation" element={<Reservation />} />
