@@ -1,0 +1,11 @@
+.bus-way-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-bus {
+  width: 100px;
+}
+.route-link-button {
+  margin: 20px;
+}
