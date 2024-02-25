@@ -1,3 +1,7 @@
+.route-h1 {
+  text-align: left;
+  font-size: 43px;
+}
 .modal {
   width: 400px;
   height: 450px;
