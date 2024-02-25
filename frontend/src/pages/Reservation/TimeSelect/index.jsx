@@ -1,12 +1,17 @@
-// import logo from "../src/assets/logo.svg";
+import { Link } from "react-router-dom";
+import RidingTime from "../../../components/Reservation/TimeSelect/RidingTime";
 
-function Main() {
+function TimeSelect() {
   return (
-    <div className="App">
-      <header className="App-header">노선정보 - 메인페이지</header>
-      <button>버튼</button>
+    <div>
+      <RidingTime></RidingTime>
+      <div className="center-location">
+        <Link to="/reservation-seats" className="next-button">
+          다음
+        </Link>
+      </div>
     </div>
   );
 }
 
-export default Main;
+export default TimeSelect;

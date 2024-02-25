@@ -1,10 +1,23 @@
-function Main() {
+import SelectWay from "../../../components/Reservation/LocationSelect/SelectWay";
+import { Link } from "react-router-dom";
+import "./styles.css";
+
+function LocationSelect() {
   return (
-    <div className="App">
-      <header className="App-header">노선정보 - 메인페이지</header>
-      <button>버튼</button>
+    <div>
+      <SelectWay></SelectWay>
+      <div className="center-location">
+        <Link to="/reservation-time" className="next-button">
+          다음
+        </Link>
+      </div>
+      <div className="center-location">
+        <Link to="/reservation-location" className="next-button" id="no-select">
+          원하는 노선이 없어요!
+        </Link>
+      </div>
     </div>
   );
 }
 
-export default Main;
+export default LocationSelect;

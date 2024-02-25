@@ -1,0 +1,10 @@
+#no-select {
+  background-color: gray;
+  margin-top: 13px;
+}
+.center-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+}

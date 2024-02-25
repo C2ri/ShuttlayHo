@@ -1,0 +1,8 @@
+#selected-button:focus {
+  background-color: rgb(108, 108, 108);
+  border: 1px solid;
+}
+.main-h1 {
+  text-align: left;
+  font-size: 43px;
+}
